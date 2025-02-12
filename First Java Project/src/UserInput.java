@@ -16,7 +16,7 @@ public class UserInput {
         String name = scanner.nextLine();
 
         System.out.print("What country do you live in: ");
-        String first_name = scanner.next(); //doesnt read spaces just one word, gives error for any spaces
+        String first_name = scanner.next(); //doesn't read spaces just one word, gives error for any spaces
 
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
